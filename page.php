@@ -16,7 +16,6 @@
 				<li><a href="#">design</a></li>
 				<li class="banner-breadcrumbs-triangle"><img src="<?php echo get_template_directory_uri(); ?>/img/triangle.png" width="38" height="37" alt="Triangle"></li>
 				<li><a href="#">interactive</a></li>
-		
 			</ul>
 		</div>
 		<div class="banner-strapline">
