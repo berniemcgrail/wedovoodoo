@@ -1,0 +1,28 @@
+//------------------- Fonts ---------------------//
+
+@font-face {
+    font-family: 'NexaLight';
+    src:url('../fonts/NexaLight.ttf.woff') format('woff'),
+        url('../fonts/NexaLight.ttf.svg#NexaLight') format('svg'),
+        url('../fonts/NexaLight.ttf.eot'),
+        url('../fonts/NexaLight.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lobster-13';
+    src:url('../fonts/Lobster-13.ttf.woff') format('woff'),
+        url('../fonts/Lobster-13.ttf.svg#Lobster-13') format('svg'),
+        url('../fonts/Lobster-13.ttf.eot'),
+        url('../fonts/Lobster-13.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin heading-large{
+    font-family: 'Lobster-13';
+    font-size: 100px;
+    line-height: 76px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}

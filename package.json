@@ -1,0 +1,27 @@
+{
+  "name": "MallCribbs",
+  "version": "0.0.1",
+  "description": "Gulp and dependencies",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^1.5.8",
+    "gulp": "^3.4",
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-combine-media-queries": "^0.1",
+    "gulp-compass": "^1.1.9",
+    "gulp-concat": "^2.2.3",
+    "gulp-file-include": "^0.4.0",
+    "gulp-filter": "^1.0.2",
+    "gulp-minify-css": "^0.3.7",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2",
+    "gulp-replace": "^0.4",
+    "gulp-size": "^0.4",
+    "gulp-sourcemaps": "^1.1.0",
+    "gulp-svg-sprites": "^1.0.0",
+    "gulp-uglify": "^0.3.1",
+    "gulp-util": "^3.0",
+    "phantom-sync": "~1.1.1",
+    "svg-cleaner": "~0.0.1"
+  }
+}
