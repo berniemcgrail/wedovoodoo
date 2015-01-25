@@ -1,3 +1,4 @@
+//---------------------------------- on doc ready ----------------------------------
 $(document).ready(function(){
 
   $('.hamburger-container').click(function(){
@@ -35,20 +36,31 @@ $(document).ready(function(){
 
 });
 
+//---------------------------------- on window load ----------------------------------
 $(window).load(function(){
   bannerHeight();
-  vAlign()
+  $('section').fadeIn();
+  vAlign();
 });
 
+//--------------------------------- on window resize ---------------------------------
 $(window).resize(function(){
 	bannerHeight();
   vAlign()
 });
 
+//--------------------------------- on window scroll ---------------------------------
+$(window).scroll(function(){
+  navBar()
+});
+
+//------------------------------------ functions -------------------------------------
+
 function bannerHeight(){
-	var pageHeight = $(window).height();
+	pageHeight = $(window).height();
 	$('.banner-overlay, #simple3D, section.full-height, .match-parent-height').css('height', pageHeight);
-}
+  $('.about').css('marginTop', pageHeight)
+};
 
 function vAlign(){
   var $vaChild = $('.v-align');
@@ -56,8 +68,22 @@ function vAlign(){
     var vaChildHeight = $(this).height();
     var vaParentHeight = $(this).parent().height();
 
-    var offset = (vaParentHeight - vaChildHeight) / 2;
-    $(this).css('marginTop', offset);
-  });
+    var topOffset = (vaParentHeight - vaChildHeight) / 2;
+    $(this).css('paddingTop', topOffset);
 
+    console.log('child height: ' + vaChildHeight + '  parent height: ' + vaParentHeight + '  offset: ' + topOffset)
+  });
+}
+
+function navBar(){
+  //nav bar positioning
+  var $navBar = $('header');
+  var navBarHeight = $navBar.height();
+  pageOffset = pageHeight - navBarHeight;
+  scrollPos = $(window).scrollTop();
+  if(pageOffset < scrollPos){
+    $navBar.addClass('scroll');
+  }else{
+    $navBar.removeClass('scroll');
+  }
 }

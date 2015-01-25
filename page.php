@@ -1,14 +1,12 @@
 <?php get_header(); ?>
 
-<section class="banner" data-sectionid="0">
-	<div class="banner-overlay">
-		<div id="simple3D">
-			<div class="stars1"></div>
-			<div class="stars2"></div>
-			<div class="stars3"></div>
+<section class="banner full-height" data-sectionid="0">
+	<div class="banner-content v-align">
+		<div class="banner-strapline">
+			<h1>Crafting Digital Magic</h1>
 		</div>
 		<div class="banner-breadcrumbs cfx">
-			<ul>
+			<ul class="cfx">
 				<li><a class="scroll" href="#strategy">strategy</a></li>
 
 				<li class="banner-breadcrumbs-triangle"><img src="<?php echo get_template_directory_uri(); ?>/img/triangle.png" width="38" height="37" alt="Triangle"></li>
@@ -24,13 +22,15 @@
 				<li><a class="scroll" href="#interactive">interactive</a></li>
 			</ul>
 		</div>
-		<div class="banner-strapline">
-			<h1>Crafting Digital Magic</h1>
-		</div>
-		<a class="scroll-triangle scroll" href="#about"><img src="<?php echo get_template_directory_uri(); ?>/img/scrolltriangle.png" width="57" height="57" alt="Scrolltriangle"></a>
-	</div>
 
+		<a class="scroll-triangle scroll" href="#about">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/scrolltriangle.png" width="57" height="57">
+		</a>
+	</div>
 </section>
+
+
+
 
 <section class="about full-height" id="about" data-sectionid="1">
 	<div class="row cfx match-parent-height">

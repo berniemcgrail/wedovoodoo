@@ -1,6 +1,7 @@
 @import 'colours';
 @import 'mixins';
 @import 'hamburger';
+@import 'navBar';
 @import 'fonts';
 
 //-----------------------------------------------//
@@ -75,65 +76,17 @@ p{
     position: relative;
 }
 
-header {
-	height: 120px;
-	width: 100%;
-    background-color: rgba(30,30,30,0.8);
-	position: absolute;
-	z-index: 3;
 
-    .row {
-        padding: 0 30px 0 50px;
-    }
-
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-	.logo {
-		height: 80px;
-		width: 163px;
-		float: left;
-		margin-top: 20px;
-	}
-}
-
-nav {
-	display: none;
-    float: right;
-	.nav {
-		float: left;
-		padding-right: 20px;
-	}
-
-    li {
-        float: left;
-        padding: 44px 20px;
-
-        a {
-            color: $white;
-            text-decoration: none;
-            font-size: 16px;
-
-            &:hover {
-                color: $purple;
-            }
-        }
-
-        &.current-menu-item {
-            a {
-                color: $purple;
-            }
-        }
-    }
-}
 
 
 .banner {
-    background-color: rgba(255,255,255,0.7);
+    //background-color: rgba(255,255,255,0.7);
+    background: linear-gradient(to right,  rgba(62,8,85,1) 0%,rgba(41,137,216,1) 94%,rgba(41,137,216,1) 95%,rgba(41,137,216,1) 100%); /* W3C */
 	width: 100%;
-	z-index: 1;
+    position: fixed;
+    top: 0;
+	z-index: -1;
+    text-align: center;
 	&-overlay {
 		z-index: 4;
 		width: 100%;
@@ -163,17 +116,16 @@ nav {
 		  background: url(../img/stars1.png);
 		}
 	}
+
+    &-content{
+        margin-top: -100px;
+    }
 	&-breadcrumbs {
-		float:right;
-	    position:relative;
-	    left:-50%;
-	    text-align:left;
-		margin-top: 310px;
-		z-index: 5;
+		padding-top: 100px;
+        display: inline-block;
+
 		ul {
 			list-style:none;
-			    position:relative;
-			    left:50%;
 		}
 
 		li {
@@ -181,6 +133,7 @@ nav {
 			position:relative;
 			margin: 0 20px;
 			font-size: 45px;
+            line-height: 36px;
 
 			a {
 				color: $white;
@@ -199,7 +152,6 @@ nav {
 		text-align: center;
 		display: inline-block;
 		width: 100%;
-        margin-top: 110px;
 		h1 {
 			color: $white;
 			font-size: 100px;
@@ -214,7 +166,7 @@ nav {
     width: 50px;
     position: fixed;
     left: 50%;
-    bottom: 30px;
+    bottom: 170px;
     z-index: 6;
 }
 
@@ -237,9 +189,15 @@ nav {
 
 section{
     background-color: $light-grey;
+    display: none;
 
     h2{
         @include heading-large;
+    }
+
+    &.about{
+        position: relative;
+        z-index: 1;
     }
 
     &.strategy{

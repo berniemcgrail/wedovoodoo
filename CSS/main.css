@@ -256,6 +256,47 @@
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); } }
 
+header {
+  height: 120px;
+  width: 100%;
+  background-color: rgba(30, 30, 30, 0.8);
+  position: absolute;
+  bottom: 0;
+  z-index: 3; }
+  header .row {
+    padding: 0 30px 0 50px; }
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  header .logo {
+    height: 80px;
+    width: 163px;
+    float: left;
+    margin-top: 20px; }
+  header.scroll {
+    position: fixed;
+    top: 0;
+    z-index: 10; }
+
+nav {
+  display: none;
+  float: right; }
+  nav .nav {
+    float: left;
+    padding-right: 20px; }
+  nav li {
+    float: left;
+    padding: 44px 20px; }
+    nav li a {
+      color: #E3E3E3;
+      text-decoration: none;
+      font-size: 16px; }
+      nav li a:hover {
+        color: #613192; }
+    nav li.current-menu-item a {
+      color: #613192; }
+
 @font-face {
   font-family: 'NexaLight';
   src: url('../fonts/NexaLight.ttf.woff') format('woff'), url('../fonts/NexaLight.ttf.svg#NexaLight') format('svg'), url('../fonts/NexaLight.ttf.eot'), url('../fonts/NexaLight.ttf.eot?#iefix') format('embedded-opentype');
@@ -322,46 +363,14 @@ p {
   margin: 0 auto;
   position: relative; }
 
-header {
-  height: 120px;
-  width: 100%;
-  background-color: rgba(30, 30, 30, 0.8);
-  position: absolute;
-  z-index: 3; }
-  header .row {
-    padding: 0 30px 0 50px; }
-  header ul {
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-  header .logo {
-    height: 80px;
-    width: 163px;
-    float: left;
-    margin-top: 20px; }
-
-nav {
-  display: none;
-  float: right; }
-  nav .nav {
-    float: left;
-    padding-right: 20px; }
-  nav li {
-    float: left;
-    padding: 44px 20px; }
-    nav li a {
-      color: #E3E3E3;
-      text-decoration: none;
-      font-size: 16px; }
-      nav li a:hover {
-        color: #613192; }
-    nav li.current-menu-item a {
-      color: #613192; }
-
 .banner {
-  background-color: rgba(255, 255, 255, 0.7);
+  background: linear-gradient(to right, #3e0855 0%, #2989d8 94%, #2989d8 95%, #2989d8 100%);
+  /* W3C */
   width: 100%;
-  z-index: 1; }
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  text-align: center; }
   .banner-overlay {
     z-index: 4;
     width: 100%;
@@ -387,22 +396,19 @@ nav {
       background: url(../img/stars2.png); }
     .banner-overlay #simple3D div.stars3 {
       background: url(../img/stars1.png); }
+  .banner-content {
+    margin-top: -100px; }
   .banner-breadcrumbs {
-    float: right;
-    position: relative;
-    left: -50%;
-    text-align: left;
-    margin-top: 310px;
-    z-index: 5; }
+    padding-top: 100px;
+    display: inline-block; }
     .banner-breadcrumbs ul {
-      list-style: none;
-      position: relative;
-      left: 50%; }
+      list-style: none; }
     .banner-breadcrumbs li {
       float: left;
       position: relative;
       margin: 0 20px;
-      font-size: 45px; }
+      font-size: 45px;
+      line-height: 36px; }
       .banner-breadcrumbs li a {
         color: #E3E3E3;
         transition: text-shadow 0.3s ease; }
@@ -414,8 +420,7 @@ nav {
   .banner-strapline {
     text-align: center;
     display: inline-block;
-    width: 100%;
-    margin-top: 110px; }
+    width: 100%; }
     .banner-strapline h1 {
       color: #E3E3E3;
       font-size: 100px;
@@ -427,7 +432,7 @@ nav {
   width: 50px;
   position: fixed;
   left: 50%;
-  bottom: 30px;
+  bottom: 170px;
   z-index: 6; }
 
 .left {
@@ -443,13 +448,17 @@ nav {
     padding: 0 0 0 5%; }
 
 section {
-  background-color: #E3E3E3; }
+  background-color: #E3E3E3;
+  display: none; }
   section h2 {
     font-family: 'Lobster-13';
     font-size: 100px;
     line-height: 76px;
     font-weight: 200;
     margin-bottom: 50px; }
+  section.about {
+    position: relative;
+    z-index: 1; }
   section.strategy {
     background-color: #1486ce;
     color: #E3E3E3; }
