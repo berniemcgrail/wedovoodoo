@@ -81,7 +81,7 @@
 	<div class="row cfx match-parent-height">
 		<div class="left v-align">
 			<div class="img">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/design.svg" alt="">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/design5.svg" alt="">
 			</div>
 		</div>
 
