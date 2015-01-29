@@ -118,10 +118,12 @@ header {
     margin: 0;
     padding: 0; }
   header .logo {
-    height: 70px;
-    width: auto;
-    float: left;
-    margin-top: 10px; }
+    height: 90px;
+    width: 70px;
+    float: left; }
+    header .logo img {
+      height: 100%;
+      width: 100%; }
   header.scroll {
     position: fixed;
     top: 0;
