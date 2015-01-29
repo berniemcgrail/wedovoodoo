@@ -1,10 +1,10 @@
 header {
-    height: 120px;
+    height: 90px;
     width: 100%;
-    background-color: rgba(30,30,30,0.8);
+    background-color: rgba(30,30,30,0.9);
     position: absolute;
     bottom: 0;
-    z-index: 3;
+    z-index: 60;
 
     .row {
         padding: 0 30px 0 50px;
@@ -16,10 +16,10 @@ header {
         padding: 0;
     }
     .logo {
-        height: 80px;
-        width: 163px;
+        height: auto;
+        width: 110px;
         float: left;
-        margin-top: 20px;
+        margin-top: 18px;
     }
 
     &.scroll{

@@ -22,15 +22,12 @@
 				<li><a class="scroll" href="#interactive">interactive</a></li>
 			</ul>
 		</div>
-
-		<a class="scroll-triangle scroll" href="#about">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/scrolltriangle.png" width="57" height="57">
-		</a>
 	</div>
+
+	<a class="scroll-triangle scroll z-seven" href="#about">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/scroll-triangle.svg" class="svg"  width="57" height="57">
+	</a>
 </section>
-
-
-
 
 <section class="about full-height" id="about" data-sectionid="1">
 	<div class="row cfx match-parent-height">
@@ -44,6 +41,10 @@
 			</div>
 		</div>
 	</div>
+
+	<a class="scroll-triangle scroll z-six js-fixed" href="#strategy">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/scroll-triangle.svg" class="svg" width="57" height="57">
+	</a>
 </section>
 
 <section class="strategy full-height" id="strategy" data-sectionid="2">
@@ -59,6 +60,10 @@
 			</p>
 		</div>
 	</div>
+
+	<a class="scroll-triangle scroll z-five js-fixed" href="#branding">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/scroll-triangle.svg" class="svg"  width="57" height="57">
+	</a>
 </section>
 
 <section class="branding full-height" id="branding" data-sectionid="3">
@@ -75,6 +80,10 @@
 			</div>
 		</div>
 	</div>
+
+	<a class="scroll-triangle scroll z-four js-fixed" href="#design">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/scroll-triangle.svg" class="svg"  width="57" height="57">
+	</a>
 </section>
 
 <section class="design full-height" id="design" data-sectionid="4">
@@ -91,6 +100,10 @@
 			</p>
 		</div>
 	</div>
+
+	<a class="scroll-triangle scroll z-three js-fixed" href="#interactive">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/scroll-triangle.svg" class="svg"  width="57" height="57">
+	</a>
 </section>
 
 <section class="interactive full-height" id="interactive" data-sectionid="5">
@@ -107,6 +120,10 @@
 			</div>
 		</div>
 	</div>
+
+	<a class="scroll-triangle scroll z-two js-fixed" href="#contact">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/scroll-triangle.svg" class="svg"  width="57" height="57">
+	</a>
 </section>
 
 <section class="contact full-height" id="contact" data-sectionid="6">
@@ -123,6 +140,10 @@
 			</p>
 		</div>
 	</div>
+
+	<a class="scroll-triangle scroll z-one js-fixed" href="#banner">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/scroll-triangle.svg" class="svg"  width="57" height="57">
+	</a>
 </section>
 
 <?php get_footer(); ?>

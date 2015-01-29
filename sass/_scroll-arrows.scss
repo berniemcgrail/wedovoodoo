@@ -1,0 +1,34 @@
+.scroll-triangle{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 50%;
+    margin-left: -25px;
+
+    &.z-{
+        &seven svg polygon{stroke: $white;}
+        &six svg polygon{stroke: $blue;}
+        &five svg polygon{stroke: $white;}
+        &four svg polygon{stroke: $purple;}
+        &three svg polygon{stroke: $white;}
+        &two svg polygon{stroke: $blue;}
+        &one svg polygon{stroke: $white;}
+    }
+}
+
+section{
+    overflow: hidden;
+    position: relative;
+
+    &.banner{
+        .scroll-triangle{
+            bottom: 125px;
+        }
+    }
+
+    &.about, &.strategy, &.branding, &.design, &.interactive, &.contact{
+        .scroll-triangle{
+            top: -50px;
+        }
+    }
+}

@@ -3,6 +3,7 @@
 @import 'hamburger';
 @import 'navBar';
 @import 'fonts';
+@import 'scroll-arrows';
 
 //-----------------------------------------------//
 //------------------- Global --------------------//
@@ -57,6 +58,11 @@ img {
     height: auto;
 }
 
+.svg{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .heading, h1, h2, h3, h4, h5, h6, p, span {
     line-height: 1.4em;
     margin: 0;
@@ -81,11 +87,12 @@ p{
 
 .banner {
     //background-color: rgba(255,255,255,0.7);
-    background: linear-gradient(to right,  rgba(62,8,85,1) 0%,rgba(41,137,216,1) 94%,rgba(41,137,216,1) 95%,rgba(41,137,216,1) 100%); /* W3C */
+    //background: linear-gradient(to right,  rgba(62,8,85,1) 0%,rgba(41,137,216,1) 94%,rgba(41,137,216,1) 95%,rgba(41,137,216,1) 100%); /* W3C */
+    background: url("../img/1.jpg") 0 0 no-repeat;
+    background-size: cover;
 	width: 100%;
     position: fixed;
     top: 0;
-	z-index: -1;
     text-align: center;
 	&-overlay {
 		z-index: 4;
@@ -161,15 +168,6 @@ p{
 	}
 }
 
-.scroll-triangle {
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    left: 50%;
-    bottom: 170px;
-    z-index: 6;
-}
-
 .left{
     float: left;
     width: 50%;
@@ -197,7 +195,6 @@ section{
 
     &.about{
         position: relative;
-        z-index: 1;
     }
 
     &.strategy{

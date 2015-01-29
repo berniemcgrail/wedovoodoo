@@ -4,7 +4,7 @@
   height: 19px;
   position: relative;
   float: right;
-  margin: 20px 0;
+  margin: 6px 0;
   cursor: pointer; }
   .hamburger-container .hamburger {
     width: 22px;
@@ -257,12 +257,12 @@
             transform: rotate(0deg); } }
 
 header {
-  height: 120px;
+  height: 90px;
   width: 100%;
-  background-color: rgba(30, 30, 30, 0.8);
+  background-color: rgba(30, 30, 30, 0.9);
   position: absolute;
   bottom: 0;
-  z-index: 3; }
+  z-index: 60; }
   header .row {
     padding: 0 30px 0 50px; }
   header ul {
@@ -270,10 +270,10 @@ header {
     margin: 0;
     padding: 0; }
   header .logo {
-    height: 80px;
-    width: 163px;
+    height: auto;
+    width: 110px;
     float: left;
-    margin-top: 20px; }
+    margin-top: 18px; }
   header.scroll {
     position: fixed;
     top: 0;
@@ -308,6 +308,35 @@ nav {
   src: url('../fonts/Lobster-13.ttf.woff') format('woff'), url('../fonts/Lobster-13.ttf.svg#Lobster-13') format('svg'), url('../fonts/Lobster-13.ttf.eot'), url('../fonts/Lobster-13.ttf.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal; }
+
+.scroll-triangle {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 50%;
+  margin-left: -25px; }
+  .scroll-triangle.z-seven svg polygon {
+    stroke: #E3E3E3; }
+  .scroll-triangle.z-six svg polygon {
+    stroke: #1486ce; }
+  .scroll-triangle.z-five svg polygon {
+    stroke: #E3E3E3; }
+  .scroll-triangle.z-four svg polygon {
+    stroke: #613192; }
+  .scroll-triangle.z-three svg polygon {
+    stroke: #E3E3E3; }
+  .scroll-triangle.z-two svg polygon {
+    stroke: #1486ce; }
+  .scroll-triangle.z-one svg polygon {
+    stroke: #E3E3E3; }
+
+section {
+  overflow: hidden;
+  position: relative; }
+  section.banner .scroll-triangle {
+    bottom: 125px; }
+  section.about .scroll-triangle, section.strategy .scroll-triangle, section.branding .scroll-triangle, section.design .scroll-triangle, section.interactive .scroll-triangle, section.contact .scroll-triangle {
+    top: -50px; }
 
 body {
   margin: 0;
@@ -349,6 +378,10 @@ img {
   border: 0;
   height: auto; }
 
+.svg {
+  max-width: 100%;
+  max-height: 100%; }
+
 .heading, h1, h2, h3, h4, h5, h6, p, span {
   line-height: 1.4em;
   margin: 0; }
@@ -364,12 +397,11 @@ p {
   position: relative; }
 
 .banner {
-  background: linear-gradient(to right, #3e0855 0%, #2989d8 94%, #2989d8 95%, #2989d8 100%);
-  /* W3C */
+  background: url("../img/1.jpg") 0 0 no-repeat;
+  background-size: cover;
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: -1;
   text-align: center; }
   .banner-overlay {
     z-index: 4;
@@ -427,14 +459,6 @@ p {
       font-family: 'Lobster-13';
       font-weight: 200; }
 
-.scroll-triangle {
-  height: 50px;
-  width: 50px;
-  position: fixed;
-  left: 50%;
-  bottom: 170px;
-  z-index: 6; }
-
 .left {
   float: left;
   width: 50%; }
@@ -457,8 +481,7 @@ section {
     font-weight: 200;
     margin-bottom: 50px; }
   section.about {
-    position: relative;
-    z-index: 1; }
+    position: relative; }
   section.strategy {
     background-color: #1486ce;
     color: #E3E3E3; }
