@@ -79,6 +79,7 @@ $(window).resize(function(){
 $(window).scroll(function(){
   navBar();
   fixArrow();
+  rotateArrow();
 });
 
 //------------------------------------ functions -------------------------------------
@@ -126,4 +127,17 @@ function fixArrow(){
     console.log(scrollValue)
     $triangle.css('top', scrollValue)
   });
+}
+
+function rotateArrow(){
+  scrollPos = $(window).scrollTop();
+  var contactTop = $('section.contact').offset();
+  var contactHeight = $('section.contact').height();
+  var contactCalc = contactHeight / 1.5;
+  if(scrollPos > (contactTop.top - contactCalc)){
+    $('.z-one').addClass('rotate');
+  }
+  if(scrollPos < (contactTop.top - contactCalc)){
+    $('.z-one').removeClass('rotate');
+  }
 }

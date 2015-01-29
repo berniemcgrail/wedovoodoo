@@ -5,15 +5,24 @@
     left: 50%;
     margin-left: -25px;
 
-    &.z-{
-        &seven svg polygon{stroke: $white;}
-        &six svg polygon{stroke: $blue;}
-        &five svg polygon{stroke: $white;}
-        &four svg polygon{stroke: $purple;}
-        &three svg polygon{stroke: $white;}
-        &two svg polygon{stroke: $blue;}
-        &one svg polygon{stroke: $white;}
+
+    &.z-seven svg polygon{stroke: $white;}
+    &.z-six svg polygon{stroke: $blue;}
+    &.z-five svg polygon{stroke: $white;}
+    &.z-four svg polygon{stroke: $purple;}
+    &.z-three svg polygon{stroke: $white;}
+    &.z-two svg polygon{stroke: $blue;}
+    &.z-one svg polygon{stroke: $white;}
+
+    &.z-one{
+        transition: rotate 0.5s ease-in-out;
+        transform: rotate(0deg);
     }
+
+    &.z-one.rotate{
+        transform: rotate(180deg);
+    }
+
 }
 
 section{
