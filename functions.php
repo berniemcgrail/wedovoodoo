@@ -63,4 +63,4 @@ return count( $comments_by_type['comment'] );
 } else {
 return $count;
 }
-}
+} 

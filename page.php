@@ -130,7 +130,7 @@
 	<div class="row cfx match-parent-height">
 		<div class="left v-align">
 			<div class="contact-form">
-
+				<?php echo do_shortcode( '[contact-form-7 id="8" title="wedovoodoo"]' ); ?>
 			</div>
 		</div>
 
