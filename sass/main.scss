@@ -89,7 +89,7 @@ p{
 .banner {
     //background-color: rgba(255,255,255,0.7);
     //background: linear-gradient(to right,  rgba(62,8,85,1) 0%,rgba(41,137,216,1) 94%,rgba(41,137,216,1) 95%,rgba(41,137,216,1) 100%); /* W3C */
-    background: url("../img/banner.jpg") 0 0 no-repeat;
+    background: url("../img/banner.png") 0 0 no-repeat;
     background-size: cover;
 	width: 100%;
     position: fixed;
@@ -235,7 +235,7 @@ section{
 		font-size: 32px;
 	}
 }
-.wpcf7 input, 
+.wpcf7 input,
 .wpcf7 textarea{
     resize: none;
     width: 90%;
@@ -256,7 +256,7 @@ section{
 		border: 1px solid #fff;
 		margin-top: 50px;
 		height: 150px;
-	
+
 }
 
 .wpcf7 .wpcf7-list-item{
@@ -295,7 +295,7 @@ section{
   font-family: 'Lobster-13';
   font-size: 40px;
 }
-  
+
 
 /* On hover */
 .wpcf7 input.wpcf7-submit:hover{

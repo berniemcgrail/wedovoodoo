@@ -418,7 +418,7 @@ p {
   position: relative; }
 
 .banner {
-  background: url("../img/banner.jpg") 0 0 no-repeat;
+  background: url("../img/banner.png") 0 0 no-repeat;
   background-size: cover;
   width: 100%;
   position: fixed;
@@ -525,8 +525,7 @@ section {
 .contact-form p {
   font-size: 32px; }
 
-.wpcf7 input,
-.wpcf7 textarea {
+.wpcf7 input, .wpcf7 textarea {
   resize: none;
   width: 90%;
   padding: 10px;
@@ -537,8 +536,7 @@ section {
   background-color: #1486ce;
   font-family: 'NexaLight';
   font-size: 30px; }
-  .wpcf7 input:focus,
-  .wpcf7 textarea:focus {
+  .wpcf7 input:focus, .wpcf7 textarea:focus {
     outline: none; }
 
 #wpcf7-f8-o1 > form > p:nth-child(4) > span > textarea {
@@ -560,9 +558,6 @@ section {
   outline: none; }
 
 .wpcf7 input.wpcf7-submit {
-  -webkit-transition: 0;
-  -moz-transition: 0;
-  -o-transition: 0;
   transition: 0;
   border: 1px solid #fff;
   position: relative;
