@@ -321,9 +321,16 @@ section{
 .wpcf7 span.wpcf7-not-valid-tip{
     border:none;
 	color: #fff;
+	float: right;
+	position: relative;
+	font-size: 20px;
+	margin-top: -40px;
+	margin-right: 58px;
 
 }
-
+div.wpcf7 img.ajax-loader {
+	display: none;
+}
 .wpcf7-form .fleft{
   float: left;
 }
