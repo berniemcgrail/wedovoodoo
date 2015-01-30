@@ -64,6 +64,7 @@ $(document).ready(function(){
 //---------------------------------- on window load ----------------------------------
 $(window).load(function(){
   bannerHeight();
+  scrollPos = $(window).scrollTop();
   $('section').fadeIn();
   vAlign();
   fixArrow();
@@ -77,9 +78,11 @@ $(window).resize(function(){
 
 //--------------------------------- on window scroll ---------------------------------
 $(window).scroll(function(){
+  scrollPos = $(window).scrollTop();
   navBar();
   fixArrow();
   rotateArrow();
+  arrowPush();
 });
 
 //------------------------------------ functions -------------------------------------
@@ -95,7 +98,6 @@ function vAlign(){
   $vaChild.each(function(){
     var vaChildHeight = $(this).height();
     var vaParentHeight = $(this).parent().height();
-
     var topOffset = (vaParentHeight - vaChildHeight) / 2;
     $(this).css('paddingTop', topOffset);
   });
@@ -105,7 +107,6 @@ function navBar(){
   //nav bar positioning
   var $navBar = $('header');
   var navBarHeight = $navBar.height();
-  scrollPos = $(window).scrollTop();
   pageOffset = pageHeight - navBarHeight;
   if(pageOffset < scrollPos){
     $navBar.addClass('scroll');
@@ -116,28 +117,35 @@ function navBar(){
 
 //artificial fixed positioning on scroll arrows
 function fixArrow(){
-  scrollPos = $(window).scrollTop();
-
   $('section').each(function(){
     var sectionOffset = $(this).offset();
     var sectionHeight = $(this).height();
     var $triangle = $(this).children('.js-fixed');
-
     var scrollValue = (scrollPos - sectionOffset.top) + sectionHeight - 175;
-    console.log(scrollValue)
     $triangle.css('top', scrollValue)
   });
 }
 
+//push the arrow down once the user has scrolled past the banner
+function arrowPush(){
+  var bannerHeight = $('.banner').height();
+  var pushVal = bannerHeight * 0.3;
+  if(scrollPos > pushVal){
+    $('.scroll-triangle').addClass('pushDown');
+  }else{
+    $('.scroll-triangle').removeClass('pushDown');
+  }
+}
+
+//rotate the arrow in the content section
 function rotateArrow(){
-  scrollPos = $(window).scrollTop();
   var contactTop = $('section.contact').offset();
   var contactHeight = $('section.contact').height();
   var contactCalc = contactHeight / 1.5;
   if(scrollPos > (contactTop.top - contactCalc)){
-    $('.z-one').addClass('rotate');
+    $('.scroll-triangle').addClass('rotate');
   }
   if(scrollPos < (contactTop.top - contactCalc)){
-    $('.z-one').removeClass('rotate');
+    $('.scroll-triangle').removeClass('rotate');
   }
 }

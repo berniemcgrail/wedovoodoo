@@ -14,13 +14,17 @@
     &.z-two svg polygon{stroke: $blue;}
     &.z-one svg polygon{stroke: $white;}
 
-    &.z-one{
-        transition: rotate 0.5s ease-in-out;
+    &.scroll-triangle svg{
+        transition: all 0.5s ease-in-out;
         transform: rotate(0deg);
     }
 
-    &.z-one.rotate{
+    &.scroll-triangle.rotate svg{
         transform: rotate(180deg);
+    }
+
+    &.scroll-triangle.pushDown svg{
+        margin-top: 80px;
     }
 
 }

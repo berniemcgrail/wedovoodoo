@@ -13,7 +13,7 @@
 	<body>
         <header class="cfx">
             <div class="row">
-				<div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo1.svg" width="163" height="80" alt="Logo"></div>
+				<a class="logo scroll" href="#banner"><img src="<?php echo get_template_directory_uri(); ?>/img/logo1.svg" width="163" height="80" alt="Logo"></a>
                 <div class="hamburger-container">
                     <div class="hamburger">
                         <div class="line line-1"></div>

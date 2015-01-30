@@ -5,6 +5,7 @@ header {
     position: absolute;
     bottom: 0;
     z-index: 60;
+    transition: all 0.5s ease-in-out;
 
     .row {
         padding: 0 30px 0 50px;
@@ -19,6 +20,7 @@ header {
         height: 90px;
         width: 70px;
         float: left;
+        transition: all 0.5s ease-in-out;
 		img {
 			height: 100%;
 			width: 100%;
@@ -29,6 +31,14 @@ header {
         position: fixed;
         top: 0;
         z-index: 10;
+        height: 65px;
+
+        .logo{
+            height: 65px;
+            width: 40px;
+        }
+
+        .hamburger-container {margin-top: 21px;}
     }
 }
 
