@@ -145,3 +145,12 @@
     li.slick-active div {
     background: $purple;
 }
+
+.dots-bluebg{
+    .slick-dots li div{
+        background: $white;
+    }
+        li.slick-active div {
+        background: $purple;
+    }
+}

@@ -464,6 +464,11 @@ section {
 li.slick-active div {
   background: #613192; }
 
+.dots-bluebg .slick-dots li div {
+  background: #E3E3E3; }
+.dots-bluebg li.slick-active div {
+  background: #613192; }
+
 body {
   margin: 0;
   font-family: 'NexaLight';

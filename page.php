@@ -68,7 +68,7 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/img/strategy.svg" alt="">
 			</div>
 		</div>
-		<div class="right slider single-item v-align">
+		<div class="right slider single-item v-align dots-bluebg">
 			<div>
 				<h2>Strategy</h2>
 				<p>We understand that every business is unique, so when you work with us we will outline a digital strategy tailored to help your company grow.
