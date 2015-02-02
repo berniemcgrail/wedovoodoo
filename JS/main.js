@@ -1,6 +1,16 @@
 //---------------------------------- on doc ready ----------------------------------
 $(document).ready(function(){
 
+  $('.single-item').slick({
+    autoplay: true,
+    autoplaySpeed: 10000,
+    dots: true,
+    arrows: false,
+    customPaging: function(slider, i) {
+        return '<div data-role="none">' + (i + 1) + '</div>';
+    }
+  });
+
   $('.hamburger-container').click(function(){
     var $hamburger = $(this).find('.hamburger')
     var $nav = $('nav ul')
@@ -63,6 +73,9 @@ $(document).ready(function(){
 
 //---------------------------------- on window load ----------------------------------
 $(window).load(function(){
+
+$('.single-item').fadeIn();
+
   bannerHeight();
   scrollPos = $(window).scrollTop();
   $('section').fadeIn();
@@ -100,6 +113,12 @@ function vAlign(){
     var vaParentHeight = $(this).parent().height();
     var topOffset = (vaParentHeight - vaChildHeight) / 2;
     $(this).css('paddingTop', topOffset);
+
+    //make sure the slider aligns with a timeout
+    if(!$(this).hasClass('aligned')){
+      setTimeout(vAlign, 500);
+      $(this).addClass('aligned');
+    }
   });
 }
 
