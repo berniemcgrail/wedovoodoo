@@ -614,6 +614,8 @@ section {
     line-height: 50px;
     font-weight: 200;
     margin-bottom: 30px; }
+  section p {
+    padding-bottom: 20px; }
   section.about {
     position: relative; }
   section.strategy {

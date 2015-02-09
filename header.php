@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>We Do Voodoo</title>
-		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/main.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/main.css" />
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/CSS/mixins.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
 		<?php wp_head(); ?>
