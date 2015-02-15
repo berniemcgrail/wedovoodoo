@@ -49,9 +49,9 @@
 					<p>Our relationship with our clients is the cornerstone of our agency. We think maintaining friendship is the best way to encourage open communication, helping us all make the best decisions.</p>
 				</div>
 		</div>
-		<div class="right">
+		<div class="right v-align">
 			<div class="img">
-				<img src="" alt="">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logo-grey.svg" width="163" height="80" alt="Logo">
 			</div>
 		</div>
 	</div>
@@ -132,7 +132,7 @@
 
 		<div class="left v-align copy">
 			<h2>Interactive</h2>
-			<p>Not only does a website have to look good, but it has to present content in a digestible way. We use the latest web technologies to draw the attention of users, we keep their attention through clean layout and usable structure, and we reach as many people as possible through wide ranging support for mobile devices and desktop browsers.
+			<p>We use the latest web technologies to draw the attention of users, we keep their attention through clean layout and usable structure, and we reach as many people as possible through wide ranging support for mobile devices and desktop browsers.
 			</p>
 		</div>
 		<div class="right v-align">

@@ -4,7 +4,7 @@ header {
     background-color: rgba(30,30,30,0.9);
     position: absolute;
     bottom: 0;
-    z-index: 60;
+    z-index: 80;
     transition: all 0.5s ease-in-out;
 
     .row {
@@ -30,7 +30,7 @@ header {
     &.scroll{
         position: fixed;
         top: 0;
-        z-index: 10;
+        z-index: 80;
         height: 65px;
 
         .logo{
@@ -42,32 +42,35 @@ header {
     }
 }
 
-nav {
+.nav-container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 80;
     display: none;
-    float: right;
-    .nav {
-        float: left;
-        padding-right: 20px;
+}
+
+nav{
+    display: table;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+
+    ul{
+        padding: 0;
     }
+}
 
-    li {
-        float: left;
-        padding: 44px 20px;
-
-        a {
-            color: $white;
-            text-decoration: none;
-            font-size: 16px;
-
-            &:hover {
-                color: $purple;
-            }
-        }
-
-        &.current-menu-item {
-            a {
-                color: $purple;
-            }
+.nav{
+    display: table-cell;
+    vertical-align: middle;
+    li{
+        text-align: center;
+        list-style: none;
+        a{
+            color: #fff;
+            font-size: 34px;
+            line-height: 70px;
         }
     }
 }

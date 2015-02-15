@@ -261,7 +261,7 @@ header {
   background-color: rgba(30, 30, 30, 0.9);
   position: absolute;
   bottom: 0;
-  z-index: 60;
+  z-index: 80;
   transition: all 0.5s ease-in-out; }
   header .row {
     padding: 0 30px 0 50px; }
@@ -280,7 +280,7 @@ header {
   header.scroll {
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 80;
     height: 65px; }
     header.scroll .logo {
       height: 65px;
@@ -288,23 +288,31 @@ header {
     header.scroll .hamburger-container {
       margin-top: 21px; }
 
+.nav-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 80;
+  display: none; }
+
 nav {
-  display: none;
-  float: right; }
-  nav .nav {
-    float: left;
-    padding-right: 20px; }
-  nav li {
-    float: left;
-    padding: 44px 20px; }
-    nav li a {
-      color: #E3E3E3;
-      text-decoration: none;
-      font-size: 16px; }
-      nav li a:hover {
-        color: #613192; }
-    nav li.current-menu-item a {
-      color: #613192; }
+  display: table;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%; }
+  nav ul {
+    padding: 0; }
+
+.nav {
+  display: table-cell;
+  vertical-align: middle; }
+  .nav li {
+    text-align: center;
+    list-style: none; }
+    .nav li a {
+      color: #fff;
+      font-size: 34px;
+      line-height: 70px; }
 
 @font-face {
   font-family: 'NexaLight';
@@ -527,6 +535,14 @@ p {
   max-width: 1200px;
   margin: 0 auto;
   position: relative; }
+
+.overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 70;
+  display: none; }
 
 .banner {
   background: url("../img/banner.png") 0 0 no-repeat;

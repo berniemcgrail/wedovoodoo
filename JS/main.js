@@ -1,6 +1,10 @@
 //---------------------------------- on doc ready ----------------------------------
 $(document).ready(function(){
 
+  $hamburger = $(this).find('.hamburger')
+    $nav = $('.nav-container')
+    $overlay = $('.overlay')
+
   $('.single-item').slick({
     autoplay: false,
     autoplaySpeed: 10000,
@@ -12,17 +16,27 @@ $(document).ready(function(){
   });
 
   $('.hamburger-container').click(function(){
-    var $hamburger = $(this).find('.hamburger')
-    var $nav = $('nav ul')
+
     if(!$hamburger.hasClass('active')){
       $hamburger.removeClass('dormant');
       $hamburger.addClass('active');
-      $nav.addClass('active').slideDown();
+      $overlay.addClass('active').fadeIn();
+      $nav.addClass('active').fadeIn();
+
+
     }else{
       $hamburger.removeClass('active');
       $hamburger.addClass('dormant');
-      $nav.removeClass('active').slideUp();
+      $overlay.removeClass('active').fadeOut();
+      $nav.removeClass('active').fadeOut();
     }
+  });
+
+  $('.menu-item a').click(function(){
+      $hamburger.removeClass('active');
+      $hamburger.addClass('dormant');
+      $overlay.removeClass('active').fadeOut();
+      $nav.removeClass('active').fadeOut();
   });
 
 
@@ -104,6 +118,7 @@ function bannerHeight(){
 	pageHeight = $(window).height();
 	$('.banner-overlay, #simple3D, section.full-height, .match-parent-height').css('height', pageHeight);
   $('.about').css('marginTop', pageHeight)
+  $('.overlay, .nav-container').css('marginTop', pageHeight*-1)
 };
 
 function vAlign(){

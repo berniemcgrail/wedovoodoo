@@ -84,12 +84,16 @@ p{
     position: relative;
 }
 
-
-
+.overlay{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.9);
+  z-index: 70;
+  display: none;
+}
 
 .banner {
-    //background-color: rgba(255,255,255,0.7);
-    //background: linear-gradient(to right,  rgba(62,8,85,1) 0%,rgba(41,137,216,1) 94%,rgba(41,137,216,1) 95%,rgba(41,137,216,1) 100%); /* W3C */
     background: url("../img/banner.png") 0 0 no-repeat;
     background-size: cover;
 	width: 100%;
@@ -202,6 +206,12 @@ section{
 
     &.about{
         position: relative;
+
+        .right{
+          .img{
+
+          }
+        }
     }
 
     &.strategy{
