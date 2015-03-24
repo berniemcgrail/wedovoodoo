@@ -376,3 +376,157 @@ div.wpcf7 img.ajax-loader {
 :-ms-input-placeholder { /* Internet Explorer 10+ */
    color:    #fff;
 }
+
+
+@media only screen and (max-width: 1200px){
+    .banner-breadcrumbs {
+      ul {
+        padding: 0;
+        li {
+          font-size: 30px;
+        }
+      }
+    }
+    .row {
+      padding: 0 50px;
+      .left, .right {
+        width: 45%;
+      } 
+    }
+  }
+
+  @media only screen and (max-width: 950px){
+
+    .banner {
+      &-strapline {
+        h1 {
+          font-size: 80px;
+        }
+      }
+      &-breadcrumbs {
+        ul {
+          li {
+          font-size: 25px;
+          margin: 0 10px;
+          }
+        }
+        &-triangle {
+          img {
+            width: 75%;
+          }
+        }
+      }
+    }
+    p {
+      font-size: 28px;
+      line-height: 35px;
+    } 
+  }
+
+  @media only screen and (max-width: 768px){
+    header {
+      position: relative;
+    }
+    section {
+      height: auto!important;
+      margin: 0!important;
+      &.design, &.contact {
+        p {
+          padding-bottom: 80px;
+        }
+      }
+      &.contact {
+        .right {
+          padding-top: 100px!important;
+          padding-bottom: 80px;
+        }
+        p {
+          padding: 0;
+        }
+      }
+      &.strategy {
+        .right {
+          padding-bottom: 80px;
+          padding-top: 0!important;
+        } 
+      }
+      &.banner {
+        padding: 60px 0;
+      }
+      &.design {
+        .left {
+          padding-top: 0px!important;
+        }
+      }
+    }
+    .banner {
+      position: relative;
+      &-content {
+        margin: 0;
+      }
+      &-strapline {
+        padding: 0 20px;
+        h1 {
+          font-size: 60px;
+        }
+      }
+      &-breadcrumbs {
+        ul {
+          li {
+          font-size: 20px;
+          margin: 0 5px;
+          line-height: 23px;
+          }
+        }
+        &-triangle {
+          img {
+            width: 60%;
+            margin: 0 0 0 10px;
+          }
+        }
+      }
+    }
+    p {
+      font-size: 24px;
+      line-height: 35px;
+      padding-bottom: 60px;
+    }
+    .row {
+      padding: 0 20px!important;
+      .img {
+        display: none;
+      }
+      padding: 0 50px;
+      .left, .right {
+        width: 100%;
+        padding-top: 80px!important;
+      } 
+    }
+    .match-parent-height {
+      height: auto!important;
+    }
+    .scroll-triangle {
+      display: none;
+    } 
+  }
+
+@media only screen and (max-width: 530px){
+
+  .banner {
+      &-strapline {
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+
+  .banner-breadcrumbs{
+    li {
+      display: none;
+    }
+    &-triangle {
+      display: none;
+    }
+  }
+}
+

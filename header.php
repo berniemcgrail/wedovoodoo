@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
         <title>We Do Voodoo</title>
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/main.css" />
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/CSS/mixins.css" type="text/css" media="screen" title="no title" charset="utf-8">
