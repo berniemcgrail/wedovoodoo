@@ -181,15 +181,15 @@ nav {
   .scroll-triangle.z-seven svg polygon {
     stroke: #E3E3E3; }
   .scroll-triangle.z-six svg polygon {
-    stroke: #1486ce; }
+    stroke: #3F51B5; }
   .scroll-triangle.z-five svg polygon {
     stroke: #E3E3E3; }
   .scroll-triangle.z-four svg polygon {
-    stroke: #613192; }
+    stroke: #00BFA5; }
   .scroll-triangle.z-three svg polygon {
     stroke: #E3E3E3; }
   .scroll-triangle.z-two svg polygon {
-    stroke: #1486ce; }
+    stroke: #3F51B5; }
   .scroll-triangle.z-one svg polygon {
     stroke: #E3E3E3; }
   .scroll-triangle.scroll-triangle svg {
@@ -313,16 +313,16 @@ section {
   display: block;
   height: 10px;
   width: 10px;
-  background: #1486ce;
+  background: #3F51B5;
   cursor: pointer; }
 
 li.slick-active div {
-  background: #613192; }
+  background: #00BFA5; }
 
 .dots-bluebg .slick-dots li div {
   background: #E3E3E3; }
 .dots-bluebg li.slick-active div {
-  background: #613192; }
+  background: #00BFA5; }
 
 body {
   margin: 0;
@@ -345,12 +345,12 @@ body {
   box-sizing: border-box; }
 
 a {
-  color: #613192;
+  color: #00BFA5;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
   outline: none; }
   a:hover {
-    color: #1e1e1e; }
+    color: #00BCD4; }
   a:active {
     outline: none; }
   a:focus {
@@ -392,7 +392,7 @@ p {
   display: none; }
 
 .banner {
-  background: url("../img/banner.png") 0 0 no-repeat;
+  background: url("../img/bg5.jpg") 0 0 no-repeat;
   background-size: cover;
   width: 100%;
   position: fixed;
@@ -487,7 +487,7 @@ section {
   section.about {
     position: relative; }
   section.strategy {
-    background-color: #1486ce;
+    background-color: #3F51B5;
     color: #E3E3E3; }
     section.strategy .left {
       position: relative; }
@@ -497,10 +497,10 @@ section {
         max-height: 100%;
         width: 100%; }
   section.design {
-    background-color: #613192;
+    background-color: #00BFA5;
     color: #E3E3E3; }
   section.contact {
-    background-color: #1486ce;
+    background-color: #3F51B5;
     color: #E3E3E3; }
 
 .contact-form p {
@@ -515,7 +515,7 @@ section {
   color: #fff;
   border: none;
   border-bottom: 1px solid #fff;
-  background-color: #1486ce;
+  background-color: #3F51B5;
   font-family: 'NexaLight';
   font-size: 30px; }
   .wpcf7 input:focus,

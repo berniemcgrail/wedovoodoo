@@ -5,7 +5,7 @@
 		<div class="banner-strapline">
 			<h1>Crafting Digital Magic</h1>
 		</div>
-		<div class="banner-breadcrumbs cfx">
+		<!-- <div class="banner-breadcrumbs cfx">
 			<ul class="cfx">
 				<li><a class="scroll" href="#strategy">strategy</a></li>
 
@@ -21,7 +21,7 @@
 
 				<li><a class="scroll" href="#interactive">interactive</a></li>
 			</ul>
-		</div>
+		</div> -->
 	</div>
 
 	<a class="scroll-triangle scroll z-seven" href="#about">

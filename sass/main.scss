@@ -94,7 +94,7 @@ p{
 }
 
 .banner {
-    background: url("../img/banner.png") 0 0 no-repeat;
+    background: url("../img/bg5.jpg") 0 0 no-repeat;
     background-size: cover;
 	width: 100%;
     position: fixed;
@@ -258,7 +258,7 @@ section{
     color:#fff;
 	border: none;
 	border-bottom: 1px solid #fff;
-	background-color: #1486ce;
+	background-color: $blue;
 	font-family: 'NexaLight';
 	font-size: 30px;
     &:focus {
