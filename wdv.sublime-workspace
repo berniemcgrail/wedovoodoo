@@ -1,0 +1,1408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"t",
+				"table-row"
+			],
+			[
+				"scro",
+				"scrollType"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"Tex",
+				"text-transform"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"s",
+				"super"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"en",
+				"endwhile"
+			],
+			[
+				"Fo",
+				"font-size"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"pro",
+				"prodCount"
+			],
+			[
+				"pos",
+				"postID"
+			],
+			[
+				"padding-",
+				"padding-left: "
+			],
+			[
+				"back",
+				"background-repeat: "
+			],
+			[
+				"backg",
+				"background-position: "
+			],
+			[
+				"this",
+				"thisItemHeight"
+			],
+			[
+				"prod",
+				"product-page"
+			],
+			[
+				"tabC",
+				"tabContentID"
+			],
+			[
+				"marg",
+				"margin-bottom: "
+			],
+			[
+				"product",
+				"productRow"
+			],
+			[
+				"backgr",
+				"background-size: "
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"weather",
+				"weather-feed"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"conte",
+				"contentHeight"
+			],
+			[
+				"tr",
+				"transform: "
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"margin-",
+				"margin-left: "
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"border",
+				"border-bottom: "
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-bottom: "
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"sub",
+				"subtitleValue"
+			],
+			[
+				"padd",
+				"padding-right: "
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"overfl",
+				"overflow"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"bo",
+				"border-right: "
+			],
+			[
+				"pad",
+				"padding-bottom: "
+			],
+			[
+				"text-a",
+				"text-decoration"
+			],
+			[
+				"borde",
+				"border-color: "
+			],
+			[
+				"box",
+				"box-sizing: "
+			],
+			[
+				"vi",
+				"viewHeight"
+			],
+			[
+				"ro",
+				"rowOffset"
+			],
+			[
+				"viewpo",
+				"viewportOffset"
+			],
+			[
+				"view",
+				"viewportOffset"
+			],
+			[
+				"tit",
+				"titleVal"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"ac",
+				"activeClass"
+			],
+			[
+				"chi",
+				"childHeight"
+			],
+			[
+				"par",
+				"parentHeight"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"js",
+				"jsAccordian"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"ov",
+				"overflow-x"
+			],
+			[
+				"ove",
+				"overflow"
+			],
+			[
+				"grap",
+				"graph-operations"
+			],
+			[
+				"gra",
+				"graph-operation"
+			],
+			[
+				"temp",
+				"tempList"
+			],
+			[
+				"overflo",
+				"overflow-y"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"di",
+				"d-ib+	display: inline-block;\n*display: inline;\n*zoom: 1;"
+			],
+			[
+				"sea",
+				"search-form"
+			],
+			[
+				"margin-t",
+				"margin-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"cur",
+				"cursor"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "page.php",
+			"settings":
+			{
+				"buffer_size": 6696,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_colours.scss",
+			"settings":
+			{
+				"buffer_size": 161,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/slick-theme.scss",
+			"settings":
+			{
+				"buffer_size": 4445,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 9206,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"line",
+				"Sort Lines"
+			],
+			[
+				"css",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"css ti",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"color",
+				"Color Picker"
+			]
+		],
+		"width": 368.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/wp-content",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/wp-content/themes",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/wp-content/themes/wedovoodoo",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/wp-content/themes/wedovoodoo/sass"
+	],
+	"file_history":
+	[
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/_pricing.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/_colours.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/_features.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/_header.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/_hero.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/_contact.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/_global.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/footer.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/js/smoothscroll.js",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/support.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/social.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/responsive.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/designs.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/booking.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/affordable.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/_slider.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/js/main.js",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/_footer.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/phone5.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/pin.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/style.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/functions.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/_fonts.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/_hamburger.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/twitter.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/phone.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/google.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/facebook.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/img/icons/at.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/style.css",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/mixins.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/normalize.scss",
+		"/Users/Bernie/Desktop/header.php",
+		"/Users/Bernie/Desktop/_colours.scss",
+		"/Users/Bernie/Desktop/_global.scss",
+		"/Users/Bernie/Desktop/_header.scss",
+		"/Users/Bernie/Desktop/functions.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/css/normalize.css",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/sass/style.css",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/archive.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/category.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/search.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/single.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/searchform.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/index.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/WDV2/wp-content/themes/WDV2/page.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/header.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/js/main.js",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/category-news.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_news.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_colours.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_contact.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/careers.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/page-contact.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_careers.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-config.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_products.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/category-healthy-eating.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/single.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/functions.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/single-casestudy.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/category-species.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_casestudy.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_our-story.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/page-story.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/single-species.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/page-sustainability.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_sustainability.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/page-love-fish.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/page-our-principals.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_healthy.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_healthy_grid.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/single-healthy-eating.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/page-species.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/page-products.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/category.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/search.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/single-recipes.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/_healthy.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_recipe.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/category-recipes.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_hero.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/Activation/youngs-wp/wp-content/themes/youngs/sass/_header.scss",
+		"/private/var/folders/g8/_22980vd54gbsg0cf12vgrr00000gn/T/567ba6e5-ddf5-425e-8b83-1e7e3d6e2920/web/wp-config.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/wedovoodoo/wp-content/themes/wedovoodoo/page.php",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/4.3-user-inner.html",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/7.2-news-inner.html",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/6.1-events-landing.html",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/9-contact.html",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/images/icons/phoneicon.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/images/icons/emailicon.svg",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/sass/_events.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/sass/style.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/sass/_sidebar.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/sass/_bespoke-rows.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/sass/_users.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/sass/_article.scss",
+		"/Users/Bernie/Documents/wedovoodoo/Sites/GreenChameleon/HBXL/templates/sass/_global.scss",
+		"/D/Work/Green Chameleon/HBXL/templates/gulpfile.js",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/homepage.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/taxonomy-ranges.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/_range-promo.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/style.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/_carousel.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/hero.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/_product.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/page.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/single.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/index.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/page-products.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/_header.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/header.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/footer.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/_home-grid.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/_colours.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/_fonts.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/_products.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/_global.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/plugins/term-menu-order/term-menu-order.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/single-product-ranges.php",
+		"/D/Work/Activation/youngs-wp/wp-content/plugins/term-menu-order/readme.txt",
+		"/D/Work/Activation/youngs-wp/wp-content/plugins/acf-categoryfields/functions.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/sass/_headings.scss",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/single-products.php",
+		"/D/Work/Activation/youngs-wp/wp-config.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/taxonomy.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/functions.php",
+		"/D/Work/Activation/youngs-wp/wp-content/themes/youngs/js/main.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\Work\\Activation\\youngs-wp\\wp-content\\themes\\youngs\\sass",
+			"C:\\dev\\cribbs\\Cribbs.Website\\Assets",
+			"C:\\dev\\cribbs\\Cribbs.Website\\Assets\\maps",
+			"D:\\Work\\True\\cribbsfuture",
+			"D:\\Work\\True\\lbc",
+			"D:\\Work\\BSD\\nest\\dev",
+			"D:\\Work\\BSD\\nest",
+			"D:\\Work\\BSD\\nest\\dev",
+			"D:\\Work\\BSD\\release-dev",
+			"D:\\Work\\BSD",
+			"D:\\Work\\BSD\\release-dev"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"body",
+			"hero",
+			"fill=\"#231F20\"\n",
+			"product-ran",
+			"get_post",
+			"?>\n",
+			"range-promos",
+			"blue",
+			"hero",
+			"add_filter",
+			")\n",
+			"http://local.youngs.co.uk",
+			"cold, wet and windy",
+			"Book",
+			"fff",
+			"E3E3E3",
+			"logo",
+			".news",
+			".home-logo",
+			".bann",
+			"home",
+			"banner",
+			"logo",
+			"pagina",
+			"button",
+			"379d9f",
+			"4px solid",
+			"work",
+			"border-co",
+			"news",
+			"button",
+			"news",
+			".content-pad",
+			"_",
+			"<li",
+			"ul",
+			"<ul>",
+			"<ul",
+			"news",
+			"pagination",
+			"left",
+			"margin",
+			"local.ac",
+			"http://local.activation.co.uk",
+			"work-item",
+			"work-itme",
+			"nav",
+			"button",
+			"http://youngsseafood.co.uk",
+			"local.activation.co.uk",
+			"-webkit-",
+			"ul",
+			"regis",
+			"watch",
+			"['']",
+			"super",
+			"jones",
+			"toggle",
+			"management",
+			"toggle",
+			"ie",
+			"legend",
+			".map-options",
+			"[data-mobile-collapse=\"content\"]",
+			".filter-toggle",
+			"180",
+			"rotateX(180deg)",
+			"$button",
+			"show-all",
+			"store",
+			"anytim",
+			"job-list",
+			"__checkbox",
+			"h3",
+			"invert",
+			"key",
+			"$base-font",
+			"BebasNeue",
+			"file-path",
+			"wide",
+			"legend",
+			".map .map-overlay .map-overlay-legend .legend-image",
+			".png",
+			"/Assets/maps/kml/",
+			"/assets/maps/",
+			"markers",
+			"kmlLowerLevel",
+			"kmlInfoBikes",
+			"icon-bike.png",
+			"Bootmaker",
+			"text9646",
+			"Jones Bootmaker",
+			"Next Home",
+			"Next Home & Gardens",
+			"enlargeSecondaryAtZoomLevel",
+			"geoxml3_infowindow",
+			"argos",
+			"Units 3-4,\nBlock B,",
+			"kml",
+			"images",
+			"carl",
+			"The Retail Park",
+			"the retail park",
+			"http://carlsimmons.com/other-stuff/",
+			"carl",
+			"/assets/maps/",
+			"cnt",
+			";\n",
+			"../img",
+			";}",
+			"32px",
+			"../",
+			"../fonts/",
+			"itcavantgardestd-xlt",
+			"$(window).load(function(){",
+			".start",
+			"h2",
+			"Vi-Spring",
+			"Vi-spring",
+			"Whatever the size of your bedroom",
+			"ITCAG-light",
+			"ITCAG-book",
+			"ITCAG-demi",
+			"ITCAG-bold",
+			"The Options Profile Ottoman",
+			"bold",
+			"sizes",
+			"cta"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"http://jordanneenan.com/youngs",
+			"rain",
+			"Medium",
+			"96e421",
+			"http://jordanneenan.com/activation",
+			"http://local.youngsseafood.co.uk",
+			"jordanneenan.com/activation",
+			"/Assets/maps/kml/",
+			"http://www.truedigital.co.uk/cribbs/googleimages/",
+			"../images/lightbox",
+			"",
+			"h4",
+			"Vispring",
+			"itcavantgardestd-xlt",
+			"ITCAvantGardeStd-Bk",
+			"itcavantgardestd-demi",
+			"itcavantgardestd-bold",
+			"@dash-msdd-grey-bg",
+			"@dark-colour",
+			"@light-colour",
+			"",
+			"truncate",
+			"icon-sort-up transition-all",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "page.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								1008
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "sass/_colours.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/slick-theme.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4828,
+								4828
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4241.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wdv.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"mobile",
+				"scss\\modules\\_mobile-content-accordion.scss"
+			],
+			[
+				"map.scs",
+				"scss\\modules\\_map.scss"
+			],
+			[
+				"moderni",
+				"scss\\helpers\\mixins\\_modernizr.scss"
+			],
+			[
+				"_map.s",
+				"scss\\modules\\_map.scss"
+			],
+			[
+				"map",
+				"scss\\base\\susy\\math\\su\\_maps.scss"
+			],
+			[
+				"colo",
+				"scss\\helpers\\_colors.scss"
+			],
+			[
+				"font",
+				"scss\\helpers\\_fonts.scss"
+			],
+			[
+				"fonts",
+				"scss\\helpers\\_fonts.scss"
+			],
+			[
+				"searc",
+				"scss\\modules\\_search-result.scss"
+			],
+			[
+				"base",
+				"scss\\base\\_base.scss"
+			],
+			[
+				"jobs",
+				"scss\\modules\\_jobs.scss"
+			],
+			[
+				"erro",
+				"scss\\modules\\_error.scss"
+			],
+			[
+				"clock",
+				"scss\\modules\\_clock-promo.scss"
+			],
+			[
+				"easy",
+				"scss\\vendor\\_easy-responsive-tabs.scss"
+			],
+			[
+				"tabs",
+				"scss\\modules\\_tabs.scss"
+			],
+			[
+				"",
+				"css\\style.css"
+			],
+			[
+				"sear",
+				"templates\\templates\\t--search-results.tpl"
+			],
+			[
+				"head",
+				"scss\\components\\_headings.scss"
+			],
+			[
+				"eas",
+				"scss\\vendor\\_easy-responsive-tabs.scss"
+			],
+			[
+				"icons",
+				"scss\\components\\_icons.scss"
+			],
+			[
+				"event",
+				"scss\\modules\\_events.scss"
+			],
+			[
+				"blog",
+				"templates\\templates\\t--blog.tpl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
